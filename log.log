@@ -1,0 +1,54 @@
+20-05-2019 10:36:54.601 [main] INFO  com.MavenAppApplication.logStarting - Starting MavenAppApplication on VakeelAhamad with PID 20032 (D:\Project\UserApp\target\classes started by Vakeel.Ahamad in D:\Project\UserApp)
+20-05-2019 10:36:54.795 [main] DEBUG com.MavenAppApplication.logStarting - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+20-05-2019 10:36:54.797 [main] INFO  com.MavenAppApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+20-05-2019 10:36:57.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+20-05-2019 10:36:57.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 540ms. Found 2 repository interfaces.
+20-05-2019 10:36:58.048 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92abab8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20-05-2019 10:36:58.109 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$122bf8c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20-05-2019 10:36:58.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+20-05-2019 10:36:58.888 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+20-05-2019 10:36:58.889 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+20-05-2019 10:36:59.214 [main] INFO  org.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-05-2019 10:36:59.222 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+20-05-2019 10:37:00.420 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20-05-2019 10:37:00.533 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+20-05-2019 10:37:00.535 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+20-05-2019 10:37:00.716 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20-05-2019 10:37:00.979 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20-05-2019 10:37:01.986 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20-05-2019 10:37:03.253 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+20-05-2019 10:37:03.319 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20-05-2019 10:37:03.476 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page template: index
+20-05-2019 10:37:04.170 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+20-05-2019 10:37:04.174 [main] INFO  com.MavenAppApplication.logStarted - Started MavenAppApplication in 10.254 seconds (JVM running for 22.132)
+20-05-2019 10:38:32.703 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+20-05-2019 10:38:32.706 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+20-05-2019 10:38:39.794 [main] INFO  com.MavenAppApplication.logStarting - Starting MavenAppApplication on VakeelAhamad with PID 18016 (D:\Project\UserApp\target\classes started by Vakeel.Ahamad in D:\Project\UserApp)
+20-05-2019 10:38:39.798 [main] DEBUG com.MavenAppApplication.logStarting - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+20-05-2019 10:38:39.800 [main] INFO  com.MavenAppApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+20-05-2019 10:38:41.397 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+20-05-2019 10:38:41.864 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 455ms. Found 2 repository interfaces.
+20-05-2019 10:38:42.266 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4799e76c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20-05-2019 10:38:42.294 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c71a349e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20-05-2019 10:38:42.784 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+20-05-2019 10:38:42.813 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+20-05-2019 10:38:42.814 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+20-05-2019 10:38:43.033 [main] INFO  org.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-05-2019 10:38:43.041 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+20-05-2019 10:38:43.737 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+20-05-2019 10:38:43.825 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.9.Final}
+20-05-2019 10:38:43.828 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+20-05-2019 10:38:43.968 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+20-05-2019 10:38:44.118 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+20-05-2019 10:38:45.512 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20-05-2019 10:38:46.488 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+20-05-2019 10:38:46.557 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20-05-2019 10:38:46.718 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page template: index
+20-05-2019 10:38:47.088 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+20-05-2019 10:38:47.093 [main] INFO  com.MavenAppApplication.logStarted - Started MavenAppApplication in 7.664 seconds (JVM running for 11.908)
+20-05-2019 17:01:04.029 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+20-05-2019 17:01:04.045 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
